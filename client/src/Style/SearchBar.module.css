@@ -1,0 +1,66 @@
+.selecto{
+  display:flex;
+  align-items: center;
+  margin-bottom: 15px;
+  
+}
+
+.selecto input {
+  display: inline-flex;
+  justify-content: space-around;    
+  margin-right: 6px;
+  margin-left: 20px;
+    font-size: 1rem;
+  font-weight: 200;
+  height: 6vh;
+        width: 15vw;
+        font-family: monospace;
+        font-size: 16px;
+        border-radius: 15px;
+        background: #635d5e;
+        margin: 0 20px;
+        border: 1px solid white;
+        color:beige;
+        padding: 10px;
+        box-shadow: 
+        0 0 2px rgb(111, 140, 146), 
+        0 0 4px rgb(111, 140, 146),
+        0 0 6px rgb(111, 140, 146), 
+        0 0 8px rgb(84, 118, 145), 
+        0 0 8px rgb(84, 118, 145), 
+        0 0 8px rgb(84, 118, 145);
+
+
+  }
+  
+
+    .btnCreate {
+      border: solid 2px transparent;
+      border-color: rgb(196, 87, 24);
+      border-width: 0.5px;
+      border-radius: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 150px;
+      padding: 0;
+      height: 25px;
+      background-color: rgb(131, 158, 132);
+      transition: background-color 0.25s, color 0.25s;
+      cursor: pointer;
+      color: rgb(185, 44, 13);
+      font-size: 1rem;
+      box-shadow: 
+      0 0 2px rgb(111, 140, 146), 
+      0 0 4px rgb(111, 140, 146),
+      0 0 6px rgb(111, 140, 146), 
+      0 0 8px rgb(84, 118, 145), 
+      0 0 8px rgb(84, 118, 145), 
+      0 0 8px rgb(84, 118, 145);
+      margin: 0 20px;
+      margin-top: 10px;
+    }
+    .btnCreate:hover {
+      background-color: #572c03ab;
+      color: white;
+    }

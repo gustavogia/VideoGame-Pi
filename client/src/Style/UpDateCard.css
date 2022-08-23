@@ -1,0 +1,122 @@
+.crumbs {
+    margin: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 0.1rem;
+    color: rgb(214, 81, 48);
+    font-family: "Comic Neue", cursive;
+  
+  }
+
+  .container {
+    display: flex;
+    justify-content: left;
+    margin: 5px;
+    color: rgb(186, 35, 9);
+    border:solid;
+    border-radius: 10px;
+   
+  }
+.gus {
+  border: #114668;
+  padding: 5px 5px 5px 5px;
+
+  
+}
+.gust{
+  
+  padding: 5px 5px 5px 5px;
+  border-radius: 3px;
+  margin: 10px;
+  display: flex;
+  justify-content: left;
+  font-family: "Comic Neue", cursive;
+  text-align: left;
+}
+
+.crumbs input {
+  border: solid transparent;
+  border-radius: 5px;
+  padding: 0.1em;
+  margin-left: 15px;  
+  width: 50%;
+}
+
+.cardComp {
+  border: 1px solid rgb(230, 226, 204);
+  background-color:rgb(223, 208, 124);
+  background-position: absolute;
+  background: cover;
+  box-shadow: 2px 2px 2px rgb(223, 208, 124);
+  color: rgb(85, 136, 232);
+  display: inline-block;
+  margin: 2%;
+  padding: 1em;
+  vertical-align: top;
+  width: 33, 5%;
+  border-radius: 15px;
+ margin-left: 35%;
+  
+}
+
+
+.btn {
+  position:relative;
+  align-items: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.8em 1.5em;
+  border-radius: 6em;
+  transition: all .2s;
+  position: absolute;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: rgb(75, 65, 57);
+  background-color:   rgb(117, 168, 85);
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-bottom: 0px;
+ }
+ 
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(217, 217, 192, 0.2);
+}
+ 
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(205, 206, 164, 0.2);
+}
+ 
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+ 
+.btn::after {
+  background-color: #fff;   
+}
+ 
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+ 
+.btn-animated {
+  animation: moveInBottom 5s ease-out;
+  animation-fill-mode: backwards;
+}
